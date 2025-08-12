@@ -26,3 +26,14 @@ target
 /target
 # ignore cargo.lock
 Cargo.lock
+
+# Ignore files in src with no extension
+/src/*
+
+# But keep files that have an extension inside src
+!/src/*.*
+
+# Keep all subdirectories inside src
+!/src/**/
+
+
